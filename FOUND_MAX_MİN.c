@@ -8,26 +8,26 @@ int main(){
 
     int max,min;
     int i;
-    int dizi[csm];
+    int array[csm];
 
     printf("please enter to %d number :\n",csm);
 
     for (i = 0; i < csm; i++)
     {
-        scanf("%d",&dizi[i]);
+        scanf("%d",&array[i]);
     }   
 
-    max=min=dizi[i];
+    max=min=array[i];
 
     for ( i = 0; i < csm; i++)
     {
-        if(dizi[i]>max)
+        if(array[i]>max)
         {
-            max=dizi[i];
+            max=array[i];
         }
-        if(dizi[i]<min)
+        if(array[i]<min)
         {
-            min=dizi[i];
+            min=array[i];
         }
     }
     
